@@ -13,13 +13,13 @@ To get a local copy up and running, follow these straightforward steps.
 
 ### Prerequisites
 
-Ensure you have Python installed. If not, you can [install Python here](https://www.python.org/downloads/).
+Ensure you have Python installed. If not, you can [install Python here](https://go.3mpire.shop/python).
 
 ### Virus Total Scans
 
 This program may have false positives due to the way it was converted to an EXE, how it checks codes, files being created/deleted, Python modules, Sysmon detection, Python Image Load By Non-Python Process, and more. The program is fully open-source!
 
-Matches rule PyInstaller from ruleset PyInstaller at [https://github.com/bartblaze/Yara-rules](https://github.com/bartblaze/Yara-rules) by @bartblaze
+Matches rule PyInstaller from ruleset PyInstaller at [https://github.com/bartblaze/Yara-rules](https://go.3mpire.shop/yararules) by [@bartblaze](https://go.3mpire.shop/bartblaze)
 
 - [Windows DETECTION 7/71](https://go.3mpire.shop/nitrovts): 7 security vendors and no sandboxes flagged this file as malicious.
   
@@ -87,7 +87,7 @@ The code will start generating and checking after these steps.
 
 ## Roadmap
 
-Check the [open issues](https://github.com/MrPrinceV2/Discord-Nitro-Generator-Checker/issues) for a list of proposed features and known issues.
+Check the [open issues](https://go.3mpire.shop/dngc-issues) for a list of proposed features and known issues.
 
 ## Contributing
 
