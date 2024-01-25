@@ -1,19 +1,33 @@
 # Discord Nitro Generator and Checker
 
-A sophisticated tool designed for generating and checking Discord Nitro codes efficiently, meeting all your Nitro needs.
+Welcome to a sophisticated tool meticulously crafted for generating and checking Discord Nitro codes with maximum efficiency, catering to all your Nitro needs.
 
 ## Features
 
-- Simultaneous generation and checking of Discord Nitro codes for maximum efficiency.
+- Simultaneous generation and checking of Discord Nitro codes for optimal performance.
 - Utilizes Requests, Discord webhook, and Colored for seamless functionality.
 
 ## Getting Started
 
-To get a local copy up and running, follow these simple steps.
+To get a local copy up and running, follow these straightforward steps.
 
 ### Prerequisites
 
-Make sure you have Python installed. If not, you can [install Python here](https://www.python.org/downloads/).
+Ensure you have Python installed. If not, you can [install Python here](https://www.python.org/downloads/).
+
+### Virus Total Scans
+
+This program may have false positives due to the way it was converted to an EXE, how it checks codes, files being created/deleted, Python modules, Sysmon detection, Python Image Load By Non-Python Process, and more. The program is fully open-source!
+
+Matches rule PyInstaller from ruleset PyInstaller at [https://github.com/bartblaze/Yara-rules](https://github.com/bartblaze/Yara-rules) by @bartblaze
+
+- [Windows DETECTION 7/71](https://go.3mpire.shop/nitrovts): 7 security vendors and no sandboxes flagged this file as malicious.
+  - Windows BEHAVIOR: Microsoft Sysinternals - CLEAN -- CAPA - CLEAN -- VIRUSTOTAL JUJUBOX - CLEAN -- VIRUSTOTAL OBSERVER - CLEAN -- ZENBOX
+  - Activity Summary: DETECTIONS NOT FOUND, MITRE SIGNATURES 20 INFO, IDS RULES NOT FOUND, SIGMA RULES 1 HIGH 1 MEDIUM, DROPPED FILES 83 OTHER 1 PE-EXE 1 ZIP 1 TEXT, NETWORK COMMS 3 IP
+
+- [Python DETECTION 0/61](https://go.3mpire.shop/nitrovtsp)
+  - Python BEHAVIOR: ZENBOX - CLEAN -- VIRUSTOTAL BOX OF APPLES - CLEAN -- OS X SANDBOX - CLEAN
+  - Activity Summary: DETECTIONS NOT FOUND, MITRE SIGNATURES NOT FOUND, IDS RULES NOT FOUND, SIGMA RULES NOT FOUND, DROPPED FILES NOT FOUND, NETWORK COMMS NOT FOUND
 
 ### Installation
 
