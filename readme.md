@@ -22,10 +22,12 @@ This program may have false positives due to the way it was converted to an EXE,
 Matches rule PyInstaller from ruleset PyInstaller at [https://github.com/bartblaze/Yara-rules](https://github.com/bartblaze/Yara-rules) by @bartblaze
 
 - [Windows DETECTION 7/71](https://go.3mpire.shop/nitrovts): 7 security vendors and no sandboxes flagged this file as malicious.
+  
   - Windows BEHAVIOR: Microsoft Sysinternals - CLEAN -- CAPA - CLEAN -- VIRUSTOTAL JUJUBOX - CLEAN -- VIRUSTOTAL OBSERVER - CLEAN -- ZENBOX
   - Activity Summary: DETECTIONS NOT FOUND, MITRE SIGNATURES 20 INFO, IDS RULES NOT FOUND, SIGMA RULES 1 HIGH 1 MEDIUM, DROPPED FILES 83 OTHER 1 PE-EXE 1 ZIP 1 TEXT, NETWORK COMMS 3 IP
 
-- [Python DETECTION 0/61](https://go.3mpire.shop/nitrovtsp)
+- [Python DETECTION 0/61](https://go.3mpire.shop/nitrovtsp): No security vendors and no sandboxes flagged this file as malicious
+  
   - Python BEHAVIOR: ZENBOX - CLEAN -- VIRUSTOTAL BOX OF APPLES - CLEAN -- OS X SANDBOX - CLEAN
   - Activity Summary: DETECTIONS NOT FOUND, MITRE SIGNATURES NOT FOUND, IDS RULES NOT FOUND, SIGMA RULES NOT FOUND, DROPPED FILES NOT FOUND, NETWORK COMMS NOT FOUND
 
